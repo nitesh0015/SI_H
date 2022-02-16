@@ -1,4 +1,7 @@
 import React from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 import {
   Footer,
@@ -18,8 +21,7 @@ const App = () => (
       <Navbar />
       <Header />
     </div>
-    <Brand />
-    <WhatGPT3 />
+   
     <Features />
     <Possibility />
     <CTA />
